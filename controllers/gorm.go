@@ -7,3 +7,7 @@ type Person struct {
 	First_name string
 	Last_name  string
 }
+
+type InDB struct {
+	DB *gorm.DB
+}

@@ -7,8 +7,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type InDB struct{}
-
 func (idb *InDB) GetPerson(c *gin.Context) {
 	var (
 		person structs.Person
